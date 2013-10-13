@@ -1,0 +1,57 @@
+body{
+	font-family: "Helvetica", Helvetica, monospace;
+	height:100%;
+	overflow:auto;
+	position:relative;
+}
+
+@media only screen and (min-width:0px) and (max-width:500px){
+	body{
+		background-color: #E0656A;
+	}
+	#cicada1 {
+		position:fixed;
+		top: 0%;
+		right: 0%;
+	}
+	#cicada2 {
+		display:none;
+	}
+	#cicada3 {
+		display:none;
+	}
+}
+
+@media only screen and (min-width:501px) and (max-width:1100px){
+	body{
+		background-color: #e4ff00;
+	}
+	#cicada1 {
+		display:none;
+	}
+	#cicada2 {
+		margin: auto;
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+	}
+	#cicada3 {
+		display:none;
+	}
+}
+
+@media only screen and (min-width:1101px){
+	body{
+		background-color: #54eeff;
+	}
+	#cicada1 {
+		display:none;
+	}
+	#cicada2 {
+		display:none;
+	}
+	#cicada3 {
+		margin: auto;
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+	}
+}
