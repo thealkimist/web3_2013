@@ -1,0 +1,12 @@
+<?php
+?>
+<!doctype>
+<html>
+
+	<head>
+		<title>GET</title>
+	</head>
+
+	<body>
+		<form method = "post" action = "post.php">
+		
