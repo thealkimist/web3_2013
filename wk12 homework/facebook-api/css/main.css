@@ -1,0 +1,30 @@
+body{
+	background:blue;
+}
+
+#login a{
+	display:block;
+	background:white;
+	padding:50px 20px;
+	text-align:center;
+	color:#46629e;
+	font-size:20px;
+	text-decoration: none;
+}
+
+.hide{
+	display:none;
+}
+
+#logged-in h1{
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+}
+
+#logged-in .profile-photo img{
+	display:inline-block;
+	text-align: center;
+	margin:0 auto;
+	border:20px solid;
+}
