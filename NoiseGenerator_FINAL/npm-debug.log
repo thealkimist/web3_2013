@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.8.18/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'twit' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose read json /Users/thealkimist/Dropbox/THESIS/NoiseGenerator/package.json
+5 verbose read json /Users/thealkimist/Dropbox/THESIS/NoiseGenerator/package.json
+6 verbose cache add [ 'twit', null ]
+7 verbose cache add name=undefined spec="twit" args=["twit",null]
+8 verbose parsed url { pathname: 'twit', path: 'twit', href: 'twit' }
+9 silly lockFile 2fa2c8f5-twit twit
+10 verbose addNamed [ 'twit', '' ]
+11 verbose addNamed [ null, '' ]
+12 silly lockFile 4b2d2da5-twit twit@
+13 error Error: EACCES, mkdir '/Users/thealkimist/.npm'
+13 error  { [Error: EACCES, mkdir '/Users/thealkimist/.npm'] errno: 3, code: 'EACCES', path: '/Users/thealkimist/.npm' }
+14 error Please try running this command again as root/Administrator.
+15 error System Darwin 12.5.0
+16 error command "/usr/local/Cellar/node/0.8.18/bin/node" "/usr/local/bin/npm" "install" "twit"
+17 error cwd /Users/thealkimist/Dropbox/THESIS/NoiseGenerator
+18 error node -v v0.8.18
+19 error npm -v 1.2.2
+20 error path /Users/thealkimist/.npm
+21 error code EACCES
+22 error errno 3
+23 error stack Error: EACCES, mkdir '/Users/thealkimist/.npm'
+24 verbose exit [ 3, true ]

@@ -1,0 +1,99 @@
+body{
+	background:#242223;
+}
+
+.title section{
+	font-family: sans-serif;
+	font-size: 5em;
+	text-align: center;
+	color: #14CEFF;
+	margin-top: 2%;
+
+}
+
+.definition{
+	font-family:sans-serif;
+	font-weight: lighter;
+	font-size:104%;
+	text-align: center;
+	margin:0px auto;
+	color:white;
+}
+
+.description{
+	font-family:sans-serif;
+	font-weight: lighter;
+	position:absolute;
+	margin-left:35%;
+	top:80%;
+	text-align: center;
+	color:white;
+	max-width: 30%;
+	float:left;
+}
+
+.statusGenerated{
+	position:absolute;
+	text-align: center;
+	margin:0px auto;
+	max-width: 60%;
+	left:20%;
+	top:28%;
+	color:red;
+	font-size: 4em;
+	font-family: helvetica, sans-serif;
+}
+
+.twitter-login a{
+	font-family: sans-serif;
+	color: #14CEFF;
+	position: absolute;
+	top: 60%;
+	margin-left: 24%;
+	border: 3px solid;
+	float:left;
+}
+
+#twitter-generate a{
+	font-family: sans-serif;
+	color: #14CEFF;
+	position: absolute;
+	top: 60%;
+	margin-left: 40%;
+	border: 3px solid;
+	float:left;
+}
+
+#twitter-button a{
+	font-family: sans-serif;
+	color: #14CEFF;
+	position: absolute;
+	top: 60%;
+	margin-left: 63%;
+	border: 3px solid;
+	float:left;
+}
+
+a:hover{
+	color: red;
+}
+a:link{
+	text-decoration: none;
+}
+
+.twitter-login{
+	font-size: 550%;
+	
+}
+
+#twitter-generate{
+	font-size: 550%;
+	
+}
+
+.twitter-share-button{
+	font-size: 550%;
+	
+}
+
+
